@@ -2,7 +2,7 @@
 hour=$(date +'%H')
 case $hour in
     21|22|23) $(feh --bg-scale /etc/cron.hourly/wallpapersSource/Night.png);;
-    19|2o) $(feh --bg-scale /etc/cron.hourly/wallpapersSource/LateEvening.png);;
+    19|20) $(feh --bg-scale /etc/cron.hourly/wallpapersSource/LateEvening.png);;
 	18) $(feh --bg-scale /etc/cron.hourly/wallpapersSource/Evening.png);;
 	17) $(feh --bg-scale /etc/cron.hourly/wallpapersSource/LateAfternoon.png);;
 	13|14|15|16) $(feh --bg-scale /etc/cron.hourly/wallpapersSource/Afternoon.png);;
